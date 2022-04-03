@@ -9,8 +9,13 @@ there is no way to shut down a running instance  , save rebooting
 
 ### Install
 ___
+##### Stable
 download the binary for your platform and put it in a folder avilable on your path
 **IF** no binary is provided , just request one via [issues](https://github.com/Pandademic/webserve/issues)
+##### Dev
+>⚠️ **CAUTION ⚠️**
+
+run `go build` and you have a dev (unreleased , potentially unstable) build to use as normal
 ### Getting Help
 ____
 File an [issue.](https://github.com/Pandademic/webserve/issues)
