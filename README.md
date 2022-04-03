@@ -10,7 +10,7 @@ there is no way to shut down a running instance  , save rebooting
 ### Install
 ___
 download the binary for your platform and put it in a folder avilable on your path
-**IF** no binary is provided , just request one via issues<https://github.com/Pandademic/webserve/issues>
+**IF** no binary is provided , just request one via <https://github.com/Pandademic/webserve/issues>
 ### Licence
 Unlicense
 ```
