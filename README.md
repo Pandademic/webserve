@@ -11,6 +11,9 @@ there is no way to shut down a running instance  , save rebooting
 ___
 download the binary for your platform and put it in a folder avilable on your path
 **IF** no binary is provided , just request one via [issues](https://github.com/Pandademic/webserve/issues)
+### Getting Help
+____
+File an [issue.](https://github.com/Pandademic/webserve/issues)
 ### Licence
 Unlicense
 ```
