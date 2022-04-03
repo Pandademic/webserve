@@ -3,7 +3,14 @@ my tiny little webserver
 ### Usage
 ` webserve STATIC_DIR PORT`
 where `STATIC_DIR` is the dir containg the files and `PORT` is the port to run it on.
-shut down the server with `ctrl-c`(SIGINT)
+## Known issues
+___
+there is no way to shut down a running instance  , save rebooting
+
+### Install
+___
+download the binary for your platform and put it in a folder avilable on your path
+**IF** no binary is provided , just request one via issues<https://github.com/Pandademic/webserve/issues>
 ### Licence
 Unlicense
 ```
