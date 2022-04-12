@@ -1,12 +1,12 @@
 # webserve
 my tiny little webserver
 ### Usage
-` webserve STATIC_DIR PORT`
-where `STATIC_DIR` is the dir containg the files and `PORT` is the port to run it on.
+` webserve DIR PORT`
+where `DIR` is the dir containg the files and `PORT` is the port to run it on.
 ## Known issues
 ___
-there is no way to shut down a running instance  , save rebooting
-
+shutting down a running server is a quite wonky proccess on stable , as in `ctrl-c` may or may not kill the server.The only way for certain is to close the currenly running terminal.
+this **may or may not** work on dev 
 ### Install
 ___
 ##### Stable
@@ -15,12 +15,12 @@ download the binary for your platform and put it in a folder avilable on your pa
 ##### Dev
 >⚠️ **CAUTION ⚠️**
 
-run `go build` and you have a dev (unreleased , potentially unstable) build to use as normal
+clone the repo and then run `go build` to obtain a dev (unreleased , potentially unstable) build to use
 ### Getting Help
 ____
 File an [issue.](https://github.com/Pandademic/webserve/issues)
 ### Licence
-Unlicense
+The Unlicense
 ```
 This is free and unencumbered software released into the public domain.
 
