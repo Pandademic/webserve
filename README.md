@@ -1,5 +1,8 @@
 # webserve
 my tiny little webserver
+### why?
+____
+faster and more performant than the other webserver's I could find.At least for my tasks.
 ### Usage
 ` webserve DIR PORT`
 where `DIR` is the dir containg the files and `PORT` is the port to run it on.
@@ -18,7 +21,7 @@ download the binary for your platform and put it in a folder avilable on your pa
 ##### Dev/canary
 >⚠️ **CAUTION ⚠️**
 
-clone the repo and then run `go build` to obtain a dev (unreleased , potentially unstable) build to use
+clone the repo and then run `go build` to obtain a dev (unreleased , possibly unstable) build to use
 ### Getting Help
 ____
 File an [issue.](https://github.com/Pandademic/webserve/issues)
