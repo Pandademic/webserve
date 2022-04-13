@@ -4,15 +4,18 @@ my tiny little webserver
 ` webserve DIR PORT`
 where `DIR` is the dir containg the files and `PORT` is the port to run it on.
 ## Known issues
+### 1.0.0
 ___
-shutting down a running server is a quite wonky proccess on stable , as in `ctrl-c` may or may not kill the server.The only way for certain is to close the currenly running terminal.
-this **may or may not** work on dev 
+- shutting down a running server is a quite wonky proccess on stable , as in `ctrl-c` may or may not kill the server.The only way for certain is to close the currenly running terminal.
+### dev/canary
+____
+😄 none! 😄
 ### Install
 ___
 ##### Stable
 download the binary for your platform and put it in a folder avilable on your path
 **IF** no binary is provided , just request one via [issues](https://github.com/Pandademic/webserve/issues)
-##### Dev
+##### Dev/canary
 >⚠️ **CAUTION ⚠️**
 
 clone the repo and then run `go build` to obtain a dev (unreleased , potentially unstable) build to use
