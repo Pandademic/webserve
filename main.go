@@ -22,6 +22,6 @@ func main() {
     } else{
       port = ":"+ os.Args[2]
     }
-    log.Println("info: starting on port",port)
+    log.Println("info: starting on port ",os.Args[2])
     log.Fatal(http.ListenAndServe(port, nil))
 }
