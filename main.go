@@ -11,9 +11,8 @@ var(
 func main() {
     log.Println("info: starting")
     dir := os.Args[1]
-    if(dir == "" || dir == " "){
-     log.Println("fatal: no directory provided")
-     os.Exit(1)
+    if(len(os.Args) < 1){
+     log.Fatal("fatal: no directory provided")
     }  
     log.Println("info running from dir:",dir)
     http.Handle("/", http.FileServer(http.Dir(string(dir))))
