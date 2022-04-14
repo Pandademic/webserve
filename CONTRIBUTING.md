@@ -9,10 +9,10 @@ the coding style guide is below.
 Other than that....
 please make sure you are following are following the standards for working with us:
 ## Our Standards
-Use welcoming and inclusive language
-Respect each other
-Provide and gracefully accept constructive criticism
-Show empathy towards other community members
+- Use welcoming and inclusive language
+- Respect each other
+- Provide and gracefully accept constructive criticism
+- Show empathy towards other community members
 
 Examples of unacceptable behavior by participants include:
 
@@ -65,5 +65,7 @@ types:
 - ci (build)
 - cleanup
 - rm (removing a feature)
+- bugfix
+remeber you **CAN** use multiple , just seperate them with comma's
 then , in the extended description describe all the great things you did!
 use `*` as bullet points
