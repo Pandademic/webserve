@@ -7,7 +7,6 @@ import (
 )
 var(
   port string
-  portNum int
   dir string
 )
 var usage string = `
@@ -18,7 +17,6 @@ USAGE: webserve DIR PORT
 `
 func main() {
     log.Println("info: starting")
-    portNum = os.Args[2]
     dir = os.Args[1]
     if(len(os.Args) < 2){
      log.Println("fatal: no directory provided")
@@ -29,8 +27,8 @@ func main() {
     if os.Args[2] == "" {
       port = ":5000"
     } else{
-      port = ":"+ portNum
+
     }
-    log.Println("info: starting on port ",portNum)
+    log.Println("info: starting on port ",os.Args[2])
     log.Fatal(http.ListenAndServe(port, nil))
 }

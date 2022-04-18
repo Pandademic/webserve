@@ -1,3 +1,3 @@
-module github.com/Pandademic/webserve.git
+module github.com/Pandademic/webserve
 
 go 1.18
