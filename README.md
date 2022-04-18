@@ -1,11 +1,32 @@
 # webserve
 my tiny little webserver
+### why?
+____
+faster and more performant than the other webserver's I could find.At least for my tasks.
 ### Usage
-` webserve STATIC_DIR PORT`
-where `STATIC_DIR` is the dir containg the files and `PORT` is the port to run it on.
-shut down the server with `ctrl-c`(SIGINT)
+` webserve DIR PORT`
+where `DIR` is the dir containg the files and `PORT` is the port to run it on.
+## Known issues
+### 1.0.0
+___
+- shutting down a running server is a quite wonky proccess on stable , as in `ctrl-c` may or may not kill the server.The only way for certain is to close the currenly running terminal.
+### dev/canary
+____
+😄 none! 😄
+### Install
+___
+##### Stable
+download the binary for your platform and put it in a folder avilable on your path
+**IF** no binary is provided , just request one via [issues](https://github.com/Pandademic/webserve/issues)
+##### Dev/canary
+>⚠️ **CAUTION ⚠️**
+
+clone the repo and then run `go build` to obtain a dev (unreleased , possibly unstable) build to use
+### Getting Help
+____
+File an [issue.](https://github.com/Pandademic/webserve/issues)
 ### Licence
-Unlicense
+The Unlicense
 ```
 This is free and unencumbered software released into the public domain.
 
