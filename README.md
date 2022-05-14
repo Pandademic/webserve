@@ -10,7 +10,7 @@ where `DIR` is the dir containg the files and `PORT` is the port to run it on.
 ### 1.0.0
 ___
 - shutting down a running server is a quite wonky proccess on stable , as in `ctrl-c` may or may not kill the server.The only way for certain is to close the currenly running terminal.
-### dev/canary
+### 1.1
 ____
 😄 none! 😄
 ### Install
