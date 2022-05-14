@@ -21,7 +21,8 @@ download the binary for your platform and put it in a folder avilable on your pa
 ##### Dev/canary
 >⚠️ **CAUTION ⚠️**
 
-clone the repo and then run `go build` to obtain a dev (unreleased , possibly unstable) build to use
+clone the repo and then run `task buildall` to obtain a dev (unreleased , possibly unstable) builds for all 
+platforms to use
 ### Getting Help
 ____
 File an [issue.](https://github.com/Pandademic/webserve/issues)
