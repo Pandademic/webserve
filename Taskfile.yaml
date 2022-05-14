@@ -109,3 +109,8 @@ tasks:
       - task mac-arm
       - task mac-arm64
       - task resetenv
+  release:
+    desc: setup for a release
+    cmds:
+      - task tidyup
+      - task buildall
