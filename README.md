@@ -1,5 +1,11 @@
+
 # webserve
+
+[![Go Report Card](https://goreportcard.com/badge/github.com/Pandademic/webserve)](https://goreportcard.com/report/github.com/Pandademic/webserve)
+----
+
 my tiny little webserver
+
 ### why?
 ____
 faster and more performant than the other webserver's I could find.At least for my tasks.
