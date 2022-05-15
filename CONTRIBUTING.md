@@ -23,9 +23,23 @@ Examples of unacceptable behavior by participants include:
 - Unwelcome sexual attention or advances
 - Other conduct which could reasonably be considered inappropriate in a professional setting
 
-## STYLE GUIDE
-_____
-### CODE
+## Enviorment setup
+
+Requirments:
+
+- [go 1.18](https://go.dev) 
+
+- [task](taskfile.dev)
+
+- a editor you can work with
+
+- [git , of course](https://git-scm.com/)
+
+Enjoy!
+## Style Guide
+
+### Code
+
 - use `:=` whenever possible , unless you are declaring a value.
 EG:
 ```go
@@ -44,18 +58,17 @@ y = 7
 // is okay
 ```
 - don't use fmt.... use log
-EG:
+
+EX:
 ``` GO
-//INCORRECT:
 fmt.Println("this is bad")
-// CORRECT:
 log.Println("good")
 ```
 - don't use `os.Exit()` instead use `log.Fatal`
-- don't use `panic` either.... It look's disgusting
-- when prefixing a message use no caps , eg: `info:` **NOT** `INFO:` , it looks better
-### git 
-___
+- don't use `panic` either.... It look's disgusting , and can be confusing
+- when prefixing a message(ex: in a log) use no caps , eg: `info:` **NOT** `INFO:` , it looks better
+### Git 
+
 use this commit msg format:
 `(type) add/remove/improve filename/function`
 types:
@@ -69,3 +82,9 @@ types:
 remeber you **CAN** use multiple , just seperate them with comma's
 then , in the extended description describe all the great things you did!
 use `*` as bullet points
+
+## Best practice's
+
+- run `task cleanup` before commiting , to make sure everything looks good
+- check your grammar if it's a docs change
+- makes sure `task buildall` works
