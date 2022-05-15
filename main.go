@@ -14,7 +14,7 @@ var (
 
 func handleCtrlC(c chan os.Signal) {
 	sig := <-c
-	log.Fatal("fatal: recivied ", sig,"\ninfo: inducing graceful shutdown\ndone!")
+	log.Fatal("fatal: recivied ", sig, "\ninfo: inducing graceful shutdown\ndone!")
 }
 
 func main() {
