@@ -18,6 +18,9 @@ func handleCtrlC(c chan os.Signal) {
 }
 
 func main() {
+	if len(os.Args) != 3 {
+		log.Fatal("Argument number off: provide 2 arguments")
+	}
 	c := make(chan os.Signal)
 	signal.Notify(c, os.Interrupt, syscall.SIGTERM)
 	go handleCtrlC(c)
