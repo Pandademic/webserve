@@ -94,8 +94,8 @@ tasks:
       GOOS: "windows"
       GOARCH: "amd64"
     cmds:
+      - echo '$GOOS=windows,$GOARCH=amd64'
       - echo 'done!'
-    silent: true 
   buildall:
     desc: build for all supported targets
     cmds:
@@ -109,6 +109,10 @@ tasks:
       - task mac-arm
       - task mac-arm64
       - task resetenv
+  clean:
+    desc: clean up enviorment
+    cmds:
+       - rmdir -force bin
   release:
     desc: setup for a release
     cmds:
