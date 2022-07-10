@@ -8,7 +8,7 @@ my tiny little webserver
 
 ### why?
 ____
-faster and more performant than the other webserver's I could find.At least for my tasks.
+faster and more performant than the other webserver's I could find.At least for my tasks.Also embedable in any go application via `libwebserve`(se the libwebserve dir for more)
 ### Usage
 ` webserve DIR PORT`
 where `DIR` is the dir containg the files and `PORT` is the port to run it on.
